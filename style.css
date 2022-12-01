@@ -643,3 +643,50 @@ footer .container .footer__content{
         order: 2;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .section{
+        padding: 1rem 0 1rem;
+        margin-bottom: 1rem !important;
+    }
+    .container{
+        padding: 3.5rem 0.4rem 1rem 0.4rem;
+        margin-left: 0.5rem;
+    }
+
+    nav .search__nav{
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .home{
+        display: flex;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .home__section .text__information-home{
+        text-align: center;
+    }
+
+    .home__section .text__information-home .button__home{
+        display: flex;
+        justify-content: center;
+    }
+
+    .home .img__home{
+        order: 1;
+    }
+
+    .home .text__information-home{
+        order: 2;
+    }
+
+    .apps .app__information{
+        order: 1;
+    }
+
+    .apps .img__app{
+        order: 2;
+    }
+}
