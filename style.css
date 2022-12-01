@@ -597,14 +597,14 @@ footer .container .footer__content{
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 360px) {
     .section{
         padding: 3.5rem 0 1rem;
         margin-bottom: 1rem !important;
     }
     .container{
-        padding: 3.5rem 0 1rem;
-        margin-left: 3rem;
+        padding: 3.5rem 1rem 1rem 0.5rem;
+        margin-left: 0.5rem;
     }
 
     nav .search__nav{
